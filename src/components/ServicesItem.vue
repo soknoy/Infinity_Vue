@@ -4,13 +4,11 @@
   </div>
   <div class="flex items-stretch items-center justify-evenly mt-12">
     <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer"
+      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-700 bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
     >
       <div class="inline-flex pt-5">
         <img src="../assets/img/img1.svg" class="float-left h-24 w-24 ml-3" />
-        <div
-          class="font-bold text-4xl pt-2 text-left leading-tigth text-black/70"
-        >
+        <div class="font-bold text-4xl pt-2 text-left leading-tigth">
           Mobile App Development
         </div>
       </div>
@@ -20,13 +18,11 @@
       </p>
     </div>
     <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer"
+      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-700 bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
     >
       <div class="inline-flex pt-5">
         <img src="../assets/img/img2.svg" class="float-left h-24 w-24 ml-3" />
-        <div
-          class="font-bold text-4xl pt-2 text-left leading-tigth text-black/70"
-        >
+        <div class="font-bold text-4xl pt-2 text-left leading-tigth">
           Mobile Games Development
         </div>
       </div>
@@ -36,13 +32,11 @@
       </p>
     </div>
     <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer"
+      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-700 bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
     >
       <div class="inline-flex pt-5">
         <img src="../assets/img/img3.svg" class="float-left h-24 w-24 ml-3" />
-        <div
-          class="font-bold text-4xl text-left pt-2 leading-tigth text-black/70"
-        >
+        <div class="font-bold text-4xl text-left pt-2 leading-tigth">
           Web Development
         </div>
       </div>
@@ -54,13 +48,11 @@
   </div>
   <div class="flex items-stretch items-center justify-evenly mt-12">
     <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer"
+      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-700 bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
     >
       <div class="inline-flex pt-5">
         <img src="../assets/img/img4.svg" class="float-left h-24 w-24 ml-3" />
-        <div
-          class="font-bold text-4xl pt-2 text-left leading-tigth text-black/70"
-        >
+        <div class="font-bold text-4xl pt-2 text-left leading-tigth">
           UX/UI & Web Design
         </div>
       </div>
@@ -70,13 +62,11 @@
       </p>
     </div>
     <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer"
+      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-700 bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
     >
       <div class="inline-flex pt-5">
         <img src="../assets/img/img5.svg" class="float-left h-24 w-24 ml-3" />
-        <div
-          class="font-bold text-4xl pt-2 text-left leading-tigth text-black/70"
-        >
+        <div class="font-bold text-4xl pt-2 text-left leading-tigth">
           Digital Marketing
         </div>
       </div>
@@ -86,13 +76,11 @@
       </p>
     </div>
     <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content-6"
+      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-700 bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
     >
       <div class="inline-flex pt-5">
         <img src="../assets/img/img6.svg" class="float-left h-24 w-24 ml-3" />
-        <div
-          class="font-bold text-4xl text-left pt-2 leading-tigth text-black/70"
-        >
+        <div class="font-bold text-4xl text-left pt-2 leading-tigth">
           Creative Solution
         </div>
       </div>
@@ -108,7 +96,7 @@
 export default {};
 </script>
 <style>
-.content-6:hover > p > i {
+.content:hover > p > i {
   color: white;
 }
 </style>
