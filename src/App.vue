@@ -1,10 +1,13 @@
 <template>
   <div>
     <div class="video-wrapper">
-      <video autoplay muted loop id="myVideo">
-        <source src="../src/assets/Infinity.mp4" type="video/mp4" />
-        Your browser does not support HTML5 video.
-      </video>
+      <div class="full-screen-video-container">
+        <video autoplay muted loop id="myVideo">
+          <source src="../src/assets/Infinity.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+
       <nav
         class="fixed top-0 left-0 right-0 mx-auto p-6 bg-primaryBlue"
         :class="{ 'bg-transparent': !isActive }"
@@ -62,7 +65,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
 }
 
 nav {
@@ -77,22 +80,25 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
-video {
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-.video-wrapper {
-  border: 2px solid #000;
-  width: 1920px;
-  height: 1080px;
+.full-screen-video-container {
   position: relative;
+  height: 100vh;
+  width: 100vw;
   overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+}
+
+.full-screen-video-container video {
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .nav_active {
   background-color: blue;
