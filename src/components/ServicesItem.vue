@@ -1,27 +1,27 @@
 <template>
-  <div class="mx-auto text-primaryBlack text-7xl mt-52 font-bold">
+  <div class="ml-100 text-primaryBlack text-7xl mt-52 font-bold">
     OUR SERVICE
   </div>
-  <div class="flex items-stretch items-center justify-evenly mt-12">
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
+  <div class="flex justify-evenly mt-12">
+    <button
+      class="relative border-2 border-gray-900/10 h-352 w-512 shadow-inner bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-bottom-left before:scale-y-0 before:bg-primaryBlue before:transition-transform before:duration-300 before:content-[''] before:hover:scale-y-100"
       @mouseover="isHover1 = true"
       @mouseout="isHover1 = false"
     >
-      <div class="inline-flex pt-5">
+      <div class="inline-flex">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="123"
-          height="123"
+          width="125"
+          height="125"
           viewBox="0 0 123 123"
-          class="ml-4"
+          class="ml-6"
         >
           <g id="Group_9" data-name="Group 9" transform="translate(-137 -1629)">
             <rect
               id="Rectangle_19"
               data-name="Rectangle 19"
-              width="123"
-              height="123"
+              width="125"
+              height="125"
               transform="translate(137 1629)"
               fill="none"
             />
@@ -40,85 +40,81 @@
                   data-name="Path 6"
                   d="M28.064,8.721h7.554a1.486,1.486,0,0,0,0-2.973H28.064a1.486,1.486,0,0,0,0,2.973Z"
                   transform="translate(-0.682 -0.177)"
-                  :fill="isHover1 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover1 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_7"
                   data-name="Path 7"
                   d="M23.531,62.556H37.006a1.486,1.486,0,0,0,0-2.973H23.531a1.486,1.486,0,1,0,0,2.973Z"
                   transform="translate(-2.886 26.002)"
-                  :fill="isHover1 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover1 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_8"
                   data-name="Path 8"
                   d="M10.641,75.771a1.486,1.486,0,0,0,1.486-1.486V16.12H60.946v7.646a1.486,1.486,0,0,0,2.973,0c0-1.788,0,5.485.007-15.85A5.934,5.934,0,0,0,58,2H15.071A5.96,5.96,0,0,0,9.155,7.92V74.285a1.486,1.486,0,0,0,1.486,1.486ZM58,4.973A2.965,2.965,0,0,1,60.946,7.92v5.227H12.128V7.915a2.953,2.953,0,0,1,2.946-2.943Z"
                   transform="translate(-9.155 -2)"
-                  :fill="isHover1 ? `#3ca4b5` : `#FFFFFF`"
-                />
-                <path
-                  id="Path_9"
-                  data-name="Path 9"
-                  d="M33.893,32.131a1.486,1.486,0,0,0,2.1-.01l6.212-6.27a1.485,1.485,0,0,0,0-2.092l-6.212-6.27a1.486,1.486,0,1,0-2.112,2.092L39.058,24.8l-5.175,5.224a1.486,1.486,0,0,0,.01,2.1Z"
-                  transform="translate(2.661 5.319)"
-                  :fill="isHover1 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover1 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_10"
                   data-name="Path 10"
                   d="M24.267,17.48a1.483,1.483,0,0,0-2.1.01l-6.211,6.27a1.485,1.485,0,0,0,0,2.092l6.211,6.27a1.486,1.486,0,0,0,2.112-2.092L19.1,24.806l5.174-5.224a1.486,1.486,0,0,0-.01-2.1Z"
                   transform="translate(-6.057 5.318)"
-                  :fill="isHover1 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover1 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_11"
                   data-name="Path 11"
                   d="M32.079,14.821,23.355,36.774a1.486,1.486,0,1,0,2.762,1.1l8.724-21.953a1.486,1.486,0,1,0-2.762-1.1Z"
                   transform="translate(-2.301 3.778)"
-                  :fill="isHover1 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover1 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_12"
                   data-name="Path 12"
                   d="M47.588,33.04a7.892,7.892,0,1,0,7.877,7.892A7.9,7.9,0,0,0,47.588,33.04Zm1.486,12.574V39.951a1.486,1.486,0,1,0-2.973,0v5.678a4.928,4.928,0,1,1,2.973-.015Z"
                   transform="translate(5.697 13.094)"
-                  :fill="isHover1 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover1 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_13"
                   data-name="Path 13"
                   d="M81.686,40.384l-3.656-.416a16.3,16.3,0,0,0-1.07-2.527l2.14-3.032a1.468,1.468,0,0,0-.149-1.9l-4.266-4.251a1.481,1.481,0,0,0-1.977-.119l-2.869,2.3A15.668,15.668,0,0,0,67.3,29.415l-.609-3.671a1.486,1.486,0,0,0-1.471-1.234H59.2a1.5,1.5,0,0,0-1.486,1.323l-.4,3.671A16.288,16.288,0,0,0,54.8,30.559L51.752,28.4a1.469,1.469,0,0,0-1.9.163L45.6,32.818a1.48,1.48,0,0,0-.1,1.977l2.289,2.883a15.664,15.664,0,0,0-1.026,2.542l-3.656.609A1.511,1.511,0,0,0,41.854,42.3v6.02a1.493,1.493,0,0,0,1.323,1.471l3.656.416a16.525,16.525,0,0,0,1.07,2.527l-2.14,3.017a1.49,1.49,0,0,0,.164,1.917l4.251,4.251a1.48,1.48,0,0,0,1.977.1l2.883-2.289a16.91,16.91,0,0,0,2.527,1.011l.609,3.671a1.485,1.485,0,0,0,1.471,1.249h1.308V68.95H10.642a1.491,1.491,0,0,0-1.486,1.486v9.824a5.931,5.931,0,0,0,5.915,5.916H57.995a5.934,5.934,0,0,0,5.93-5.916v-14.6h1.739a1.5,1.5,0,0,0,1.486-1.323l.416-3.671a16.946,16.946,0,0,0,2.512-1.055l3.032,2.155a1.508,1.508,0,0,0,1.917-.163l4.236-4.266a1.462,1.462,0,0,0,.1-1.962L77.079,52.5A16.829,16.829,0,0,0,78.1,49.955l3.656-.624a1.5,1.5,0,0,0,1.248-1.457V41.855a1.47,1.47,0,0,0-1.323-1.471ZM60.953,80.261A2.953,2.953,0,0,1,57.995,83.2H15.071a2.95,2.95,0,0,1-2.943-2.943V71.923H60.953v8.338Zm19.084-33.65-3.359.565a1.5,1.5,0,0,0-1.2,1.13,13.6,13.6,0,0,1-1.442,3.6,1.457,1.457,0,0,0,.119,1.665l2.066,2.616L73.809,58.62l-2.794-1.992a1.485,1.485,0,0,0-1.635-.045,12.408,12.408,0,0,1-3.537,1.486,1.506,1.506,0,0,0-1.13,1.278l-.372,3.344H60.893l-.565-3.374a1.46,1.46,0,0,0-1.115-1.189,13.552,13.552,0,0,1-3.567-1.457,1.479,1.479,0,0,0-1.68.119l-2.631,2.081L48.914,56.45l1.962-2.75a1.579,1.579,0,0,0,.06-1.665,12.906,12.906,0,0,1-1.516-3.567,1.457,1.457,0,0,0-1.263-1.1l-3.329-.386V43.564L48.185,43a1.5,1.5,0,0,0,1.2-1.13A12.272,12.272,0,0,1,50.846,38.3a1.5,1.5,0,0,0-.1-1.694l-2.1-2.631,2.423-2.423,2.779,1.977a1.486,1.486,0,0,0,1.635.059,12.873,12.873,0,0,1,3.567-1.5,1.476,1.476,0,0,0,1.1-1.263l.372-3.344H63.97l.565,3.359a1.48,1.48,0,0,0,1.115,1.2A12.529,12.529,0,0,1,69.231,33.5a1.479,1.479,0,0,0,1.679-.119l2.616-2.1,2.423,2.438L73.987,36.49a1.553,1.553,0,0,0-.06,1.65,12.831,12.831,0,0,1,1.5,3.552,1.493,1.493,0,0,0,1.278,1.115l3.329.372v3.433Z"
                   transform="translate(-9.154 8.946)"
-                  :fill="isHover1 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover1 ? `#3ca4b5` : `#FFFFFF`"
                 />
               </g>
             </g>
           </g>
         </svg>
         <div
-          class="font-bold text-4xl pt-6 ml-3 text-left text-white"
-          :class="{ 'text-primaryBlue': isHover1 }"
+          class="font-bold text-4xl pt-6 ml-3 text-left"
+          :class="{ 'text-white': isHover1, 'text-black': !isHover1 }"
         >
           Mobile App Development
         </div>
       </div>
-      <p class="text-left px-8 text-black" :class="{ 'text-white': isHover1 }">
+      <p
+        class="text-left px-12 normal-case"
+        :class="{ 'text-white': isHover1, 'text-black': !isHover1 }"
+      >
         Build the native mobile application and cross-platform with the use of
         modern CI/CD tools and trending.
       </p>
-    </div>
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
+    </button>
+    <button
+      class="relative border-2 border-gray-900/10 h-352 w-512 shadow-inner bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-bottom-left before:scale-y-0 before:bg-primaryBlue before:transition-transform before:duration-300 before:content-[''] before:hover:scale-y-100"
       @mouseover="isHover2 = true"
       @mouseout="isHover2 = false"
     >
-      <div class="inline-flex pt-5">
+      <div class="inline-flex">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="123"
-          height="123"
-          viewBox="0 0 123 123"
-          class="ml-4"
+          width="125"
+          height="125"
+          viewBox="0 0 125 125"
+          class="ml-6"
         >
           <g
             id="Group_10"
@@ -143,103 +139,103 @@
                   id="Path"
                   d="M51.483,41.45a1.483,1.483,0,0,0,1.483-1.483V38.483a1.483,1.483,0,1,0-2.967,0v1.483A1.483,1.483,0,0,0,51.483,41.45Z"
                   transform="translate(24.169 17.885)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-2"
                   data-name="Path"
                   d="M49.967,40H48.483a1.483,1.483,0,0,0,0,2.967h1.483a1.483,1.483,0,1,0,0-2.967Z"
                   transform="translate(22.719 19.335)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-3"
                   data-name="Path"
                   d="M51.483,42A1.483,1.483,0,0,0,50,43.483v1.483a1.483,1.483,0,0,0,2.967,0V43.483A1.483,1.483,0,0,0,51.483,42Z"
                   transform="translate(24.169 20.302)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-4"
                   data-name="Path"
                   d="M56.45,41.483A1.483,1.483,0,0,0,54.967,40H53.483a1.483,1.483,0,1,0,0,2.967h1.483A1.483,1.483,0,0,0,56.45,41.483Z"
                   transform="translate(25.136 19.335)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-5"
                   data-name="Path"
                   d="M37.384,41.45H34.417V38.483a1.483,1.483,0,1,0-2.967,0V41.45H28.483a1.483,1.483,0,0,0,0,2.967H31.45v2.967a1.483,1.483,0,0,0,2.967,0V44.417h2.967a1.483,1.483,0,1,0,0-2.967Z"
                   transform="translate(13.051 17.885)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-6"
                   data-name="Path"
                   d="M39.967,44H38.483a1.483,1.483,0,1,0,0,2.967h1.483a1.483,1.483,0,0,0,0-2.967Z"
                   transform="translate(17.885 21.269)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-7"
                   data-name="Path"
                   d="M44.967,44H43.483a1.483,1.483,0,0,0,0,2.967h1.483a1.483,1.483,0,0,0,0-2.967Z"
                   transform="translate(20.302 21.269)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Shape"
                   d="M88.975,60.682A13.647,13.647,0,0,0,77.136,47.554V7.417A7.426,7.426,0,0,0,69.719,0H7.417A7.426,7.426,0,0,0,0,7.417V74.169a7.426,7.426,0,0,0,7.417,7.417H32.694A7.946,7.946,0,0,0,40.659,89a8.049,8.049,0,0,0,7.007-4.113l1.839-3.3H69.719a7.353,7.353,0,0,0,2.216-.355l2.038,3.661A8.024,8.024,0,0,0,89,80.978V61.249c0-.083-.01-.163-.012-.245s.012-.125.012-.185A1.386,1.386,0,0,0,88.975,60.682ZM7.417,2.967h62.3a4.45,4.45,0,0,1,4.45,4.45v4.45H2.967V7.417A4.45,4.45,0,0,1,7.417,2.967Zm-4.45,71.2V14.834h71.2V47.551a13.213,13.213,0,0,0-8.455,4.367H55.938a13.325,13.325,0,0,0-10.054-4.45A13.579,13.579,0,0,0,32.67,60.681c0,.047-.028.089-.028.138s.012.122.012.182c0,.083-.012.165-.012.248v17.37H7.417a4.45,4.45,0,0,1-4.45-4.45Zm66.752,4.45H51.157l2.054-3.688a1.483,1.483,0,0,1,1.295-.762H67.13a1.483,1.483,0,0,1,1.295.762l2,3.6A4.391,4.391,0,0,1,69.719,78.619Zm16.317,2.359a5.058,5.058,0,0,1-9.473,2.468l-5.545-9.958A4.45,4.45,0,0,0,67.13,71.2H54.507a4.45,4.45,0,0,0-3.888,2.286l-5.542,9.953A5.057,5.057,0,0,1,35.6,80.978v-11.8a13.3,13.3,0,0,0,3.708,3.213,1.483,1.483,0,0,0,1.483-2.568,10.418,10.418,0,0,1-5.181-8.814A10.62,10.62,0,0,1,45.9,50.435h.086a10.45,10.45,0,0,1,10.056,7.788,1.483,1.483,0,0,0,1.436,1.113,1.532,1.532,0,0,0,.375-.046,1.483,1.483,0,0,0,1.067-1.808,13.405,13.405,0,0,0-.991-2.6h5.785a13.405,13.405,0,0,0-.988,2.6,1.483,1.483,0,0,0,1.061,1.808,1.532,1.532,0,0,0,.372.046,1.483,1.483,0,0,0,1.436-1.113,10.45,10.45,0,0,1,10.059-7.788h.086A10.618,10.618,0,0,1,86.024,61a10.415,10.415,0,0,1-5.18,8.816,1.483,1.483,0,1,0,1.483,2.568,13.3,13.3,0,0,0,3.708-3.206Z"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-8"
                   data-name="Path"
                   d="M5.483,6.967H6.967A1.483,1.483,0,1,0,6.967,4H5.483a1.483,1.483,0,1,0,0,2.967Z"
                   transform="translate(1.934 1.934)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-9"
                   data-name="Path"
                   d="M10.483,6.967h1.483a1.483,1.483,0,0,0,0-2.967H10.483a1.483,1.483,0,1,0,0,2.967Z"
                   transform="translate(4.35 1.934)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-10"
                   data-name="Path"
                   d="M15.483,6.967h1.483a1.483,1.483,0,1,0,0-2.967H15.483a1.483,1.483,0,0,0,0,2.967Z"
                   transform="translate(6.767 1.934)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-11"
                   data-name="Path"
                   d="M42.483,6.967H49.9A1.483,1.483,0,0,0,49.9,4H42.483a1.483,1.483,0,0,0,0,2.967Z"
                   transform="translate(19.819 1.934)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-12"
                   data-name="Path"
                   d="M23.916,14.435a1.483,1.483,0,0,0-2.1,0L11.435,24.818a1.483,1.483,0,0,0,0,2.1L21.818,37.3a1.483,1.483,0,0,0,2.1-2.1l-9.335-9.335,9.335-9.335a1.483,1.483,0,0,0,0-2.1Z"
                   transform="translate(5.317 6.767)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-13"
                   data-name="Path"
                   d="M32.435,37.294a1.483,1.483,0,0,0,2.1,0L44.916,26.91a1.483,1.483,0,0,0,0-2.1L34.532,14.429a1.483,1.483,0,0,0-2.1,2.1l9.335,9.335L32.435,35.2a1.483,1.483,0,0,0,0,2.1Z"
                   transform="translate(15.468 6.773)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path-14"
                   data-name="Path"
                   d="M22.9,37.608a1.483,1.483,0,0,0,1.948-.779l8.9-20.767a1.483,1.483,0,0,0-2.726-1.169L22.12,35.66a1.483,1.483,0,0,0,.779,1.948Z"
                   transform="translate(10.634 6.774)"
-                  :fill="isHover2 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover2 ? `#3ca4b5` : `#FFFFFF`"
                 />
               </g>
             </g>
@@ -247,28 +243,32 @@
         </svg>
 
         <div
-          class="font-bold text-4xl pt-6 text-left ml-3 leading-tigth text-white"
+          class="font-bold text-4xl pt-6 text-left ml-3 leading-tigt"
+          :class="{ 'text-white': isHover2, 'text-black': !isHover2 }"
         >
           Mobile Games Development
         </div>
       </div>
-      <p class="text-left px-8 text-black">
+      <p
+        class="text-left px-12 normal-case"
+        :class="{ 'text-white': isHover2, 'text-black': !isHover2 }"
+      >
         Design, and develop mobile games, apps, and other cross-platform GUI-
         established interactive programs
       </p>
-    </div>
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
+    </button>
+    <button
+      class="relative border-2 border-gray-900/10 h-352 w-512 shadow-inner bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-bottom-left before:scale-y-0 before:bg-primaryBlue before:transition-transform before:duration-300 before:content-[''] before:hover:scale-y-100"
       @mouseover="isHover3 = true"
       @mouseout="isHover3 = false"
     >
-      <div class="inline-flex pt-9">
+      <div class="inline-flex">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="90"
           height="90"
           viewBox="0 0 123 123"
-          class="ml-4"
+          class="ml-6"
         >
           <g
             id="Group_11"
@@ -289,83 +289,87 @@
                 data-name="Path 14"
                 d="M65.957,55.271a6.221,6.221,0,1,0,6.229,6.221A6.229,6.229,0,0,0,65.957,55.271Zm0,8.732a2.511,2.511,0,1,1,2.518-2.511A2.515,2.515,0,0,1,65.957,64Z"
                 transform="translate(-48.744 -35.314)"
-                :fill="isHover3 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover3 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_15"
                 data-name="Path 15"
                 d="M288.78,55.271H272.329a6.221,6.221,0,1,0,0,12.442H288.78a6.221,6.221,0,1,0,0-12.442Zm0,8.732H272.329a2.511,2.511,0,1,1,0-5.022H288.78a2.511,2.511,0,1,1,0,5.022Z"
                 transform="translate(-217.151 -35.314)"
-                :fill="isHover3 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover3 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_16"
                 data-name="Path 16"
                 d="M153.629,55.271a6.221,6.221,0,1,0,6.229,6.221A6.229,6.229,0,0,0,153.629,55.271Zm0,8.732a2.511,2.511,0,1,1,2.518-2.511A2.515,2.515,0,0,1,153.629,64Z"
                 transform="translate(-120.288 -35.314)"
-                :fill="isHover3 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover3 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_17"
                 data-name="Path 17"
                 d="M138.323,222.216a1.855,1.855,0,0,0-2.236,1.373l-3.68,15.4a1.855,1.855,0,1,0,3.609.862l3.68-15.4A1.855,1.855,0,0,0,138.323,222.216Z"
                 transform="translate(-108.007 -171.505)"
-                :fill="isHover3 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover3 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_18"
                 data-name="Path 18"
                 d="M199.059,245.589a1.855,1.855,0,0,0,2.619-.151l5.2-5.84a2.574,2.574,0,0,0,.005-3.4l-5.208-5.846a1.855,1.855,0,0,0-2.771,2.468l4.521,5.075-4.521,5.076a1.856,1.856,0,0,0,.151,2.619Z"
                 transform="translate(-161.932 -177.678)"
-                :fill="isHover3 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover3 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_19"
                 data-name="Path 19"
                 d="M65.521,230.2a1.855,1.855,0,0,0-2.619.151l-5.2,5.839a2.573,2.573,0,0,0-.006,3.4l5.208,5.846a1.855,1.855,0,0,0,2.771-2.468L61.152,237.9l4.521-5.076A1.856,1.856,0,0,0,65.521,230.2Z"
                 transform="translate(-46.559 -177.679)"
-                :fill="isHover3 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover3 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_20"
                 data-name="Path 20"
                 d="M90.031,72.251h-.689a19.533,19.533,0,0,0-1.4-3.375l.492-.493a4.157,4.157,0,0,0,0-5.879l-.958-.957V22.031c0-5.533-3.9-10.035-8.7-10.035H8.7C3.9,12,0,16.5,0,22.031V73.882c0,5.533,3.9,10.035,8.7,10.035H19.589a1.855,1.855,0,1,0,0-3.71H8.7c-2.707,0-4.994-2.9-4.994-6.325V40.225h80.06V58.972a4.218,4.218,0,0,0-.644-.054h-.006a4.113,4.113,0,0,0-2.927,1.213l-.5.5a19.585,19.585,0,0,0-3.429-1.416v-.661A4.163,4.163,0,0,0,72.1,54.4H68.747a4.161,4.161,0,0,0-4.154,4.158v.706a19.693,19.693,0,0,0-3.35,1.4l-.481-.479a4.119,4.119,0,0,0-2.934-1.219h-.006a4.13,4.13,0,0,0-2.94,1.215l-2.372,2.371a4.156,4.156,0,0,0,0,5.873l.512.514a19.591,19.591,0,0,0-1.366,3.313h-.7A4.158,4.158,0,0,0,46.8,76.4v3.36a4.181,4.181,0,0,0,.024.442H36.025a1.855,1.855,0,0,0,0,3.71H51.661a19.477,19.477,0,0,0,1.388,3.34l-.5.5a4.163,4.163,0,0,0,0,5.872L54.925,96a4.119,4.119,0,0,0,2.934,1.219h.006A4.13,4.13,0,0,0,60.805,96l.5-.5A19.6,19.6,0,0,0,64.655,96.9v.718a4.161,4.161,0,0,0,4.154,4.158h3.362a4.161,4.161,0,0,0,4.154-4.158V96.9a19.551,19.551,0,0,0,3.367-1.394l.495.493a4.118,4.118,0,0,0,2.934,1.219h.006A4.132,4.132,0,0,0,86.068,96l2.367-2.371a4.156,4.156,0,0,0,0-5.879l-.5-.495a19.589,19.589,0,0,0,1.386-3.34h.7a4.161,4.161,0,0,0,4.159-4.153V76.4a4.16,4.16,0,0,0-4.159-4.152ZM3.71,36.515V22.031C3.71,18.6,6,15.706,8.7,15.706H78.776c2.707,0,4.994,2.9,4.994,6.325V36.515H3.71ZM90.48,79.765a.457.457,0,0,1-.449.442H87.909A1.855,1.855,0,0,0,86.1,81.648a15.925,15.925,0,0,1-2.046,4.929,1.855,1.855,0,0,0,.259,2.3l1.5,1.5a.445.445,0,0,1,.129.316.43.43,0,0,1-.13.312l-2.37,2.374a.447.447,0,0,1-.317.129h0a.432.432,0,0,1-.315-.131l-1.507-1.5a1.856,1.856,0,0,0-2.3-.256,15.9,15.9,0,0,1-4.95,2.049,1.856,1.856,0,0,0-1.443,1.809v2.136a.457.457,0,0,1-.444.448H68.809a.457.457,0,0,1-.444-.448V95.473a1.855,1.855,0,0,0-1.446-1.809,15.918,15.918,0,0,1-4.94-2.045,1.855,1.855,0,0,0-2.3.26l-1.5,1.5a.447.447,0,0,1-.317.129h0a.431.431,0,0,1-.312-.129L55.175,91a.457.457,0,0,1,0-.624l1.506-1.5a1.855,1.855,0,0,0,.259-2.305,15.812,15.812,0,0,1-2.048-4.925,1.855,1.855,0,0,0-1.809-1.441H50.95a.449.449,0,0,1-.444-.442V76.4a.449.449,0,0,1,.444-.442h2.127a1.856,1.856,0,0,0,1.809-1.443,15.914,15.914,0,0,1,2.022-4.906,1.855,1.855,0,0,0-.26-2.292L55.13,65.8A.426.426,0,0,1,55,65.492a.444.444,0,0,1,.129-.316l2.372-2.371a.447.447,0,0,1,.317-.129h0a.433.433,0,0,1,.315.131l1.5,1.49a1.855,1.855,0,0,0,2.3.253,16,16,0,0,1,4.934-2.069A1.855,1.855,0,0,0,68.3,60.675v-2.12a.452.452,0,0,1,.444-.448H72.1a.454.454,0,0,1,.449.448v2.089A1.855,1.855,0,0,0,74,62.455a15.906,15.906,0,0,1,5.005,2.064,1.856,1.856,0,0,0,2.3-.257l1.513-1.507a.428.428,0,0,1,.308-.125h0a.446.446,0,0,1,.317.129l2.372,2.37a.445.445,0,0,1,.129.316.431.431,0,0,1-.131.313l-1.5,1.506a1.855,1.855,0,0,0-.255,2.3,15.879,15.879,0,0,1,2.054,4.956,1.855,1.855,0,0,0,1.809,1.443h2.111a.458.458,0,0,1,.449.442Z"
                 transform="translate(0)"
-                :fill="isHover3 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover3 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_21"
                 data-name="Path 21"
                 d="M332.9,309.652a11.33,11.33,0,1,0,11.332,11.332A11.348,11.348,0,0,0,332.9,309.652Zm0,18.949a7.619,7.619,0,1,1,7.622-7.617A7.631,7.631,0,0,1,332.9,328.6Z"
                 transform="translate(-262.403 -242.898)"
-                :fill="isHover3 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover3 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_22"
                 data-name="Path 22"
                 d="M143.064,382.778h-.036a1.855,1.855,0,1,0,0,3.71h.036a1.855,1.855,0,1,0,0-3.71Z"
                 transform="translate(-115.201 -302.571)"
-                :fill="isHover3 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover3 ? `#3ca4b5` : `#FFFFFF`"
               />
             </g>
           </g>
         </svg>
 
         <div
-          class="font-bold text-4xl text-left pt-2 ml-3 leading-tigth text-white"
+          class="font-bold text-4xl text-left pt-2 ml-3 leading-tigth"
+          :class="{ 'text-white': isHover3, 'text-black': !isHover3 }"
         >
           Web Development
         </div>
       </div>
-      <p class="text-left py-4 px-8 text-black">
+      <p
+        class="text-left pt-6 px-12 normal-case"
+        :class="{ 'text-white': isHover3, 'text-black': !isHover3 }"
+      >
         Create the website from scratch, redevelop the existing, host, and
         maintain based on requirements.
       </p>
-    </div>
+    </button>
   </div>
-  <div class="flex items-stretch items-center justify-evenly mt-12">
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
+  <div class="flex items-stretch justify-evenly mt-12">
+    <button
+      class="relative border-2 border-gray-900/10 h-352 w-512 shadow-inner bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-bottom-left before:scale-y-0 before:bg-primaryBlue before:transition-transform before:duration-300 before:content-[''] before:hover:scale-y-100"
       @mouseover="isHover4 = true"
       @mouseout="isHover4 = false"
     >
@@ -375,7 +379,7 @@
           width="105"
           height="105"
           viewBox="0 0 123 123"
-          class="ml-4"
+          class="ml-6"
         >
           <g
             id="Group_14"
@@ -401,42 +405,42 @@
                   data-name="Path 23"
                   d="M198.864,27.133h5.646a1.417,1.417,0,0,0,0-2.833h-5.646a1.417,1.417,0,1,0,0,2.833Z"
                   transform="translate(-171.891 -19.711)"
-                  :fill="isHover4 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover4 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_24"
                   data-name="Path 24"
                   d="M324.316,31.8a1.395,1.395,0,1,0,1.395,1.395A1.395,1.395,0,0,0,324.316,31.8Z"
                   transform="translate(-273.666 -25.794)"
-                  :fill="isHover4 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover4 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_25"
                   data-name="Path 25"
                   d="M130.675,66.174h-8.952V64.185h8.952a4.685,4.685,0,1,0,0-9.37h-20.7a4.692,4.692,0,0,0-4.6,3.773h-11.7A4.377,4.377,0,0,0,89.3,62.961V69.82H82.064A4.693,4.693,0,0,0,77.6,66.551H73.292a4.69,4.69,0,0,0-4.685,4.685,4.846,4.846,0,0,0,5.422,4.685v4.1A4.377,4.377,0,0,0,78.4,84.388h5.276a1.417,1.417,0,1,0,0-2.833H78.4a1.541,1.541,0,0,1-1.539-1.539v-4.1a4.939,4.939,0,0,0,5.2-3.268h23.581a4.691,4.691,0,0,0,4.327,2.891h8.918V88.981A4.891,4.891,0,0,1,114,93.867H69.847a4.891,4.891,0,0,1-4.886-4.886V7.719a4.891,4.891,0,0,1,4.886-4.886h5.514L76,6.171a6.654,6.654,0,0,0,6.526,5.4h18.8a6.654,6.654,0,0,0,6.526-5.4l.639-3.337H114a4.891,4.891,0,0,1,4.886,4.886V49.188a1.417,1.417,0,1,0,2.833,0V7.719A7.728,7.728,0,0,0,114,0H69.847a7.728,7.728,0,0,0-7.719,7.719V88.981A7.728,7.728,0,0,0,69.847,96.7H114a7.728,7.728,0,0,0,7.719-7.719V75.543h8.952a4.685,4.685,0,1,0,0-9.37ZM77.6,73.088H73.292a1.852,1.852,0,1,1,0-3.7H77.6a1.852,1.852,0,1,1,0,3.7ZM105.6,2.833l-.537,2.8a3.817,3.817,0,0,1-3.744,3.1h-18.8a3.817,3.817,0,0,1-3.744-3.1l-.537-2.8Zm4.368,54.816h20.7a1.852,1.852,0,1,1,0,3.7h-20.7a1.852,1.852,0,0,1,0-3.7ZM92.135,62.961a1.541,1.541,0,0,1,1.539-1.539H105.7a4.69,4.69,0,0,0,4.271,2.764h8.918v1.988h-8.918a4.692,4.692,0,0,0-4.567,3.646H92.135V62.961Zm38.54,9.75h-20.7a1.852,1.852,0,0,1,0-3.7h20.7a1.852,1.852,0,1,1,0,3.7Z"
                   transform="translate(-62.128 0)"
-                  :fill="isHover4 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover4 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_26"
                   data-name="Path 26"
                   d="M220.98,423.879a4.685,4.685,0,0,0,0-9.37H208.995a4.685,4.685,0,0,0,0,9.37Zm-13.837-4.685a1.854,1.854,0,0,1,1.852-1.852H220.98a1.852,1.852,0,0,1,0,3.7H208.995A1.854,1.854,0,0,1,207.143,419.194Z"
                   transform="translate(-177.456 -336.222)"
-                  :fill="isHover4 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover4 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_27"
                   data-name="Path 27"
                   d="M103.275,106.861a1.416,1.416,0,0,0-1.417,1.416v15.6c-.209,4.481,4.419,8.537,9.163,8.486,4.632.138,9.658-3.864,9.419-8.5v-15.58a1.417,1.417,0,0,0-2.833,0v15.58c.153,3.046-3.208,5.685-6.6,5.669-2.963.1-6.527-2.641-6.319-5.653v-15.6A1.416,1.416,0,0,0,103.275,106.861Z"
                   transform="translate(-94.349 -86.678)"
-                  :fill="isHover4 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover4 ? `#3ca4b5` : `#FFFFFF`"
                 />
                 <path
                   id="Path_28"
                   data-name="Path 28"
                   d="M226.264,130.928a1.484,1.484,0,0,0,1.984-.278l7.842-10.4,8.2,10.8a1.436,1.436,0,0,0,1.985.272,1.417,1.417,0,0,0,.272-1.985L237.862,117.9l7.414-9.833a1.417,1.417,0,1,0-2.262-1.706l-6.932,9.193-6.979-9.2a1.417,1.417,0,0,0-2.257,1.713l7.464,9.835-8.324,11.04a1.416,1.416,0,0,0,.278,1.984Z"
                   transform="translate(-194.807 -85.815)"
-                  :fill="isHover4 ? `#3ca4b5` : `#FFFFFF`"
+                  :fill="!isHover4 ? `#3ca4b5` : `#FFFFFF`"
                 />
               </g>
             </g>
@@ -444,18 +448,22 @@
         </svg>
 
         <div
-          class="font-bold text-4xl pt-2 ml-3 mt-1 text-left leading-tigth text-white"
+          class="font-bold text-4xl pt-2 ml-3 mt-1 text-left leading-tigth"
+          :class="{ 'text-white': isHover4, 'text-black': !isHover4 }"
         >
           UX/UI & Web Design
         </div>
       </div>
-      <p class="text-left py-5 px-8 text-black">
+      <p
+        class="text-left px-12 normal-case"
+        :class="{ 'text-white': isHover4, 'text-black': !isHover4 }"
+      >
         Create user-centered designs by understanding business requirements,
         with a friendly UX and attractive UI.
       </p>
-    </div>
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
+    </button>
+    <button
+      class="relative border-2 border-gray-900/10 h-352 w-512 shadow-inner bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-bottom-left before:scale-y-0 before:bg-primaryBlue before:transition-transform before:duration-300 before:content-[''] before:hover:scale-y-100"
       @mouseover="isHover5 = true"
       @mouseout="isHover5 = false"
     >
@@ -465,7 +473,7 @@
           width="100"
           height="100"
           viewBox="0 0 123 123"
-          class="ml-4"
+          class="ml-6"
         >
           <g
             id="Group_13"
@@ -485,67 +493,71 @@
                 id="Path_29"
                 data-name="Path 29"
                 d="M75.473,53.318a33.8,33.8,0,0,0,.01-20.723A16.838,16.838,0,0,0,69.067.007,16.868,16.868,0,0,0,53.787,10.9a33.807,33.807,0,0,0-20.7,0A16.834,16.834,0,1,0,11.4,32.587a33.805,33.805,0,0,0,.009,20.731A16.862,16.862,0,0,0,.5,69.075a16.681,16.681,0,0,0,1.633,7.241A1.259,1.259,0,0,0,4.4,75.231a14.181,14.181,0,0,1-1.388-6.156A14.318,14.318,0,1,1,7.644,79.614a1.258,1.258,0,0,0-1.7,1.852A16.835,16.835,0,0,0,33.1,74.98a33.811,33.811,0,0,0,20.684,0A16.835,16.835,0,1,0,75.473,53.318ZM59.139,7a14.225,14.225,0,0,1,10-4.481c.139,0,.277-.006.416-.006a14.317,14.317,0,0,1,.4,28.628q-.208.006-.416.006A14.317,14.317,0,0,1,59.139,7ZM53.078,72.563a31.293,31.293,0,0,1-19.272,0A16.84,16.84,0,0,0,13.827,52.61,31.281,31.281,0,0,1,13.818,33.3a16.858,16.858,0,0,0,11.747-1.774,1.258,1.258,0,0,0-1.232-2.194,14.327,14.327,0,1,1,4.079-3.42,1.258,1.258,0,1,0,1.946,1.6A16.839,16.839,0,0,0,33.8,13.317a31.288,31.288,0,0,1,19.281,0A16.856,16.856,0,0,0,69.543,33.668c.162,0,.325,0,.488-.007a17.019,17.019,0,0,0,3.035-.361,31.279,31.279,0,0,1-.01,19.31A16.84,16.84,0,0,0,53.078,72.563ZM69.549,83.392A14.317,14.317,0,1,1,83.867,69.075,14.333,14.333,0,0,1,69.549,83.392Zm0,0"
-                :fill="isHover5 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover5 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_30"
                 data-name="Path 30"
                 d="M58.862,54.947a1.258,1.258,0,0,0-1.433.012,7.08,7.08,0,0,1-1.37.754,4.679,4.679,0,0,0-7.531,3.163,6.861,6.861,0,0,1-4.61-2.85,1.259,1.259,0,0,0-2.18.212,10.649,10.649,0,0,0-.775,4.384,7.686,7.686,0,0,0,3.095,5.952,7.641,7.641,0,0,1-2.647.366,1.259,1.259,0,0,0-.661,2.358,12.692,12.692,0,0,0,6.156,1.646,11.1,11.1,0,0,0,5.652-1.523,10.519,10.519,0,0,0,4.592-5.6,1.307,1.307,0,0,0,.067-.188,13.075,13.075,0,0,0,.669-4.212c0-.066,0-.132,0-.2a7.159,7.159,0,0,0,1.5-2.935A1.26,1.26,0,0,0,58.862,54.947Zm-3.531,4.078a2.149,2.149,0,0,1,.038.4,10.6,10.6,0,0,1-.533,3.408,1.2,1.2,0,0,0-.048.147,7.971,7.971,0,0,1-3.506,4.276A8.654,8.654,0,0,1,46.233,68.4a10.023,10.023,0,0,0,1.178-.687,1.259,1.259,0,0,0-.2-2.192,5.589,5.589,0,0,1-3.734-4.935,7.275,7.275,0,0,1,.046-1.3,9.379,9.379,0,0,0,6.263,2.176,1.259,1.259,0,0,0,1.226-1.258v-.781a2.161,2.161,0,0,1,3.791-1.447,1.257,1.257,0,0,0,.577.376A1.263,1.263,0,0,0,55.331,59.025Zm0,0"
                 transform="translate(-32.958 -45.541)"
-                :fill="isHover5 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover5 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_31"
                 data-name="Path 31"
                 d="M381.1,52.939h1.784v7.5a1.258,1.258,0,1,0,2.517,0v-7.5h1.943a1.258,1.258,0,1,0,0-2.517H385.4V46.9a2.2,2.2,0,0,1,2.193-2.192h1.629a1.258,1.258,0,0,0,0-2.517h-1.629a4.715,4.715,0,0,0-4.71,4.709v3.521H381.1a1.258,1.258,0,0,0,0,2.517Zm0,0"
                 transform="translate(-315.69 -35.112)"
-                :fill="isHover5 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover5 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_32"
                 data-name="Path 32"
                 d="M75.228,384.212a1.732,1.732,0,0,0,.866-.231l8.566-4.948a1.731,1.731,0,0,0,0-3l-8.566-4.948a1.732,1.732,0,0,0-2.6,1.5v9.9a1.731,1.731,0,0,0,1.732,1.731Zm.785-10.265,6.211,3.587-6.211,3.587Zm0,0"
                 transform="translate(-60.748 -308.629)"
-                :fill="isHover5 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover5 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_33"
                 data-name="Path 33"
                 d="M373.28,358.555H362.343A3.449,3.449,0,0,0,358.9,362v10.935a3.449,3.449,0,0,0,3.445,3.446H373.28a3.449,3.449,0,0,0,3.445-3.446V362A3.449,3.449,0,0,0,373.28,358.555Zm.928,14.38a.929.929,0,0,1-.928.929H362.343a.929.929,0,0,1-.928-.929V362a.93.93,0,0,1,.928-.929H373.28a.93.93,0,0,1,.928.929Zm0,0"
                 transform="translate(-298.262 -298.392)"
-                :fill="isHover5 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover5 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_34"
                 data-name="Path 34"
                 d="M393.152,389a3.8,3.8,0,1,0,3.8,3.8A3.809,3.809,0,0,0,393.152,389Zm0,5.091a1.287,1.287,0,1,1,1.287-1.287A1.289,1.289,0,0,1,393.152,394.095Zm0,0"
                 transform="translate(-323.603 -323.733)"
-                :fill="isHover5 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover5 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_35"
                 data-name="Path 35"
                 d="M207.977,178.094a1.258,1.258,0,0,0-1.258,1.258v.564a37.279,37.279,0,0,1-10.28,4.154,1.451,1.451,0,0,0-.887-.3H189.79a2.527,2.527,0,0,0-2.524,2.524V192.9a2.526,2.526,0,0,0,2.524,2.524h1.152l.437,8.391a1.258,1.258,0,0,0,1.256,1.193l.066,0a1.258,1.258,0,0,0,1.192-1.322l-.43-8.26h2.09a1.449,1.449,0,0,0,.887-.3c1.021.246,2.037.536,3.03.866a1.259,1.259,0,0,0,.792-2.389c-1.066-.354-2.157-.665-3.254-.929v-6.143a39.907,39.907,0,0,0,9.712-3.716v13.577q-.83-.448-1.675-.855a1.259,1.259,0,0,0-1.091,2.268c.937.451,1.864.948,2.766,1.477v.562a1.258,1.258,0,1,0,2.517,0V179.352A1.258,1.258,0,0,0,207.977,178.094ZM194.49,192.906l-4.708-.007.007-6.616h4.7Zm0,0"
                 transform="translate(-155.428 -148.211)"
-                :fill="isHover5 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover5 ? `#3ca4b5` : `#FFFFFF`"
               />
             </g>
           </g>
         </svg>
 
         <div
-          class="font-bold text-4xl pt-2 ml-3 mt-1 text-left leading-tigth text-white"
+          class="font-bold text-4xl pt-2 ml-3 mt-1 text-left leading-tigt"
+          :class="{ 'text-white': isHover5, 'text-black': !isHover5 }"
         >
           Digital Marketing
         </div>
       </div>
-      <p class="text-left py-5 px-8">
+      <p
+        class="text-left px-12 normal-case"
+        :class="{ 'text-white': isHover5, 'text-black': !isHover5 }"
+      >
         Advertising delivers the innovative and strategic promotional programs
         that drive efficient results.
       </p>
-    </div>
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
+    </button>
+    <button
+      class="relative border-2 border-gray-900/10 h-352 w-512 shadow-inner bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-bottom-left before:scale-y-0 before:bg-primaryBlue before:transition-transform before:duration-300 before:content-[''] before:hover:scale-y-100"
       @mouseover="isHover6 = true"
       @mouseout="isHover6 = false"
     >
@@ -555,7 +567,7 @@
           width="100"
           height="100"
           viewBox="0 0 123 123"
-          class="ml-4"
+          class="ml-6"
         >
           <g
             id="Group_12"
@@ -576,33 +588,37 @@
                 data-name="Path 36"
                 d="M49.992,49.984A3.992,3.992,0,1,0,46,45.992,4,4,0,0,0,49.992,49.984Zm0-5.323a1.331,1.331,0,1,1-1.331,1.331A1.332,1.332,0,0,1,49.992,44.661Z"
                 transform="translate(14.881 13.559)"
-                :fill="isHover6 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover6 ? `#3ca4b5` : `#FFFFFF`"
               />
               <path
                 id="Path_37"
                 data-name="Path 37"
                 d="M78.393,53.932a2.554,2.554,0,0,1,.544-2.8L80.874,49.2l-5.647-5.647-1.939,1.937a2.568,2.568,0,0,1-2.849.522,2.536,2.536,0,0,1-1.573-2.353V40.921H66.136a23.574,23.574,0,0,0-1.179-6.186l15.4-15.4A10.74,10.74,0,1,0,65.169,4.146L49.786,19.53a23.639,23.639,0,0,0-6.277-1.172,10.59,10.59,0,0,0-12.161-4.965A13.281,13.281,0,0,0,6.675,22.634,7.983,7.983,0,0,0,8.984,38.259h9.653a24.128,24.128,0,0,0-.338,3.992A18.271,18.271,0,0,0,19.715,49.6L7.844,61.472,1.238,78.646A3.542,3.542,0,0,0,1,79.928a3.575,3.575,0,0,0,4.858,3.337l17.174-6.606,8.68-8.681a3.889,3.889,0,0,0,.931,3.549,3.958,3.958,0,0,0,1.943,6.507,8.106,8.106,0,0,0,15.33,0A3.986,3.986,0,0,0,52.9,74.188c0-.1-.023-.193-.029-.29l1.653,1.653,1.939-1.937a2.606,2.606,0,0,1,4.422,1.832V78.18h7.984V75.446a2.608,2.608,0,0,1,4.423-1.832l1.937,1.937L80.874,69.9l-1.936-1.937a2.573,2.573,0,0,1-.523-2.849,2.54,2.54,0,0,1,2.354-1.574H83.5V55.559H80.769a2.56,2.56,0,0,1-2.375-1.626ZM58.454,57.855a39.713,39.713,0,0,0,4.161-4.539,6.575,6.575,0,0,1,2.258-.419,6.718,6.718,0,1,1-6.419,4.958Zm1.6-31.522L66.2,20.181l4.772,4.772L63.869,32.06A24.15,24.15,0,0,0,60.052,26.334Zm1.38-14.688,2.11-2.11L74.968,20.96l-2.11,2.11ZM72.763,3.661a8.079,8.079,0,0,1,5.713,13.791L76.85,19.079,65.424,7.653,67.05,6.027a8.03,8.03,0,0,1,5.713-2.366ZM59.551,13.527,64.323,18.3l-6.149,6.149a24.122,24.122,0,0,0-5.723-3.82Zm3.992,28.724c0,6.924-3.486,10.325-7.178,13.924-2.542,2.479-5.152,5.042-6.672,8.777a3.935,3.935,0,0,0-.788-.08H43.582V58.22a4,4,0,0,0-3.992-3.992H36.929a1.331,1.331,0,1,1,0-2.661H50.236a3.992,3.992,0,0,0,0-7.984H39.59a1.332,1.332,0,0,1-1.331-1.331V38.259h6.653a6.653,6.653,0,0,0,0-13.307c-.037,0-.072.011-.109.011a10.478,10.478,0,0,0,.109-1.341A10.66,10.66,0,0,0,44.6,21.1,21.4,21.4,0,0,1,63.543,42.252ZM34.267,68.866A1.332,1.332,0,0,1,35.6,67.535H48.905a1.331,1.331,0,1,1,0,2.661H35.6A1.332,1.332,0,0,1,34.267,68.866Zm-16.748,0L27.3,59.084a24.155,24.155,0,0,1,4.277,5.266l-9.287,9.288ZM3.661,30.275a5.323,5.323,0,1,1,10.646,0h2.661a7.987,7.987,0,0,0-7.644-7.967A10.635,10.635,0,0,1,28.9,14.441a10.654,10.654,0,0,0-5.215,8.017,5.322,5.322,0,0,0-4.059,5.155h2.661a2.661,2.661,0,1,1,5.323,0h2.661a5.314,5.314,0,0,0-3.906-5.107,7.974,7.974,0,1,1,15.589,3.168,6.64,6.64,0,0,0-3.7,5.931h2.661A3.992,3.992,0,1,1,44.913,35.6H8.984A5.328,5.328,0,0,1,3.661,30.275ZM35.6,38.26v3.992a4,4,0,0,0,3.992,3.992H50.236a1.331,1.331,0,1,1,0,2.661H36.929a3.992,3.992,0,0,0,0,7.984H39.59a1.332,1.332,0,0,1,1.331,1.331v6.653H35.6a3.935,3.935,0,0,0-.788.08c-1.52-3.735-4.13-6.3-6.672-8.777-3.691-3.6-7.178-7-7.178-13.924a21.451,21.451,0,0,1,.41-3.992ZM25.4,57.221l-9.763,9.763-4.772-4.772L21.019,52.059A29.934,29.934,0,0,0,25.4,57.221ZM9.491,64.6,19.9,75.012,11.088,78.4,6.1,73.415ZM4.9,80.781A.915.915,0,0,1,3.721,79.6l1.333-3.468,3.315,3.315Zm37.347.061a5.467,5.467,0,0,1-4.689-2.661h9.379a5.467,5.467,0,0,1-4.689,2.661Zm6.653-5.323H35.6a1.331,1.331,0,0,1,0-2.661H48.905a1.331,1.331,0,0,1,0,2.661ZM80.842,60.881h-.073a5.269,5.269,0,0,0-3.714,8.966l.056.056-1.884,1.884-.056-.056A5.269,5.269,0,0,0,66.2,75.446v.073H63.543v-.073a5.269,5.269,0,0,0-8.968-3.714l-.056.056-1.8-1.8a3.9,3.9,0,0,0,.181-1.119A3.954,3.954,0,0,0,52,66.378a17.161,17.161,0,0,1,3.635-5.671,9.311,9.311,0,1,0,9.235-10.471c-.13,0-.257.013-.386.019a17.459,17.459,0,0,0,1.675-6.672H66.2v.073a5.269,5.269,0,0,0,8.966,3.714l.056-.056L77.11,49.2l-.056.056a5.269,5.269,0,0,0,3.714,8.966h.073Z"
                 transform="translate(0 0)"
-                :fill="isHover6 ? `#3ca4b5` : `#FFFFFF`"
+                :fill="!isHover6 ? `#3ca4b5` : `#FFFFFF`"
               />
             </g>
           </g>
         </svg>
 
         <div
-          class="font-bold text-4xl text-left pt-2 ml-3 mt-1 leading-tigth text-white"
+          class="font-bold text-4xl text-left pt-2 ml-3 mt-1 leading-tigth"
+          :class="{ 'text-white': isHover6, 'text-black': !isHover6 }"
         >
           Creative Solution
         </div>
       </div>
-      <p class="text-left py-5 px-8">
+      <p
+        class="text-left py-5 px-8"
+        :class="{ 'text-white': isHover6, 'text-black': !isHover6 }"
+      >
         With innovative, and creative team we assure to cover all your brand
         campa- ign objectives…
         <i class="font-bold text-primaryBlue" :class="{ textBlack: isHover6 }"
           >Netracreative</i
         >
       </p>
-    </div>
+    </button>
   </div>
 </template>
 <script>
@@ -619,7 +635,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .content:hover > div > div {
   color: black !important;
 }

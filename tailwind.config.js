@@ -24,7 +24,13 @@ module.exports = {
         secondaryBlue: "#67C0B3",
       },
       backgroundSize: {
-        "size-200": "200% 200%",
+        "size-200": "210% 210%",
+      },
+      width: {
+        512: "32rem",
+      },
+      height: {
+        352: "22rem",
       },
     },
   },

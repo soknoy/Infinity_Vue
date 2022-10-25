@@ -64,8 +64,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  background-color: #f3f3f3;
 }
 
 nav {
@@ -74,12 +72,9 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #ffffff;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 .full-screen-video-container {
   position: relative;
   height: 100vh;
@@ -99,8 +94,5 @@ nav a.router-link-exact-active {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.nav_active {
-  background-color: blue;
 }
 </style>

@@ -11,62 +11,18 @@
     focused on delivering the finest and most significant results to fulfill the
     client’s requirements.
   </div>
-  <div class="flex items-stretch items-center justify-evenly mt-12">
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
+  <div class="flex items-center justify-evenly mt-12">
+    <button
+      class="relative border-2 border-gray-800 bg-transparent py-2.5 px-5 font-medium uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-gray-800 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-y-100"
     >
-      <div class="inline-flex pt-5">
-        <img src="../assets/img/img4.svg" class="float-left h-24 w-24 ml-3" />
-        <div
-          class="font-bold text-4xl pt-2 text-left leading-tigth text-black/70"
-        >
-          UX/UI & Web Design
-        </div>
-      </div>
-      <p class="text-left py-5 px-8">
-        Create user-centered designs by understanding business requirements,
-        with a friendly UX and attractive UI.
-      </p>
-    </div>
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
-    >
-      <div class="inline-flex pt-5">
-        <img src="../assets/img/img5.svg" class="float-left h-24 w-24 ml-3" />
-        <div
-          class="font-bold text-4xl pt-2 text-left leading-tigth text-black/70"
-        >
-          Digital Marketing
-        </div>
-      </div>
-      <p class="text-left py-5 px-8">
-        Advertising delivers the innovative and strategic promotional programs
-        that drive efficient results.
-      </p>
-    </div>
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
-    >
-      <div class="inline-flex pt-5">
-        <img src="../assets/img/img6.svg" class="float-left h-24 w-24 ml-3" />
-        <div
-          class="font-bold text-4xl text-left pt-2 leading-tigth text-black/70"
-        >
-          Creative Solution
-        </div>
-      </div>
-      <p class="text-left py-5 px-8">
-        With innovative, and creative team we assure to cover all your brand
-        campa- ign objectives…
-        <i class="font-bold text-primaryBlue">Netracreative</i>
-      </p>
-    </div>
+      button two
+    </button>
   </div>
 </template>
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 .content:hover > p > i {
   color: white;
 }

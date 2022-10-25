@@ -11,7 +11,7 @@
     focused on delivering the finest and most significant results to fulfill the
     client’s requirements.
   </div>
-  <div class="flex items-stretch items-center justify-evenly mt-12">
+  <div class="flex justify-evenly mt-12">
     <div class="inline-flex pt-5 relative">
       <div @mouseover="hoverImage1 = true" @mouseout="hoverImage1 = false">
         <div
@@ -30,7 +30,7 @@
           class="absolute text-2xl font-extrabold text-black top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full header1"
           :class="{
             invisible: !hoverImage1,
-            title1_down: hoverImage1,
+            title: hoverImage1,
           }"
           @mouseover="hoverImage1 = true"
         >
@@ -65,7 +65,7 @@
           class="absolute text-2xl font-extrabold text-black top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full header1"
           :class="{
             invisible: !hoverImage2,
-            title1_down: hoverImage2,
+            title: hoverImage2,
           }"
           @mouseover="hoverImage2 = true"
         >
@@ -100,7 +100,7 @@
           class="absolute text-2xl font-extrabold text-black top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full header1"
           :class="{
             invisible: !hoverImage3,
-            title1_down: hoverImage3,
+            title: hoverImage3,
           }"
           @mouseover="hoverImage3 = true"
         >
@@ -137,7 +137,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .content:hover > p > i {
   color: white;
 }
@@ -191,8 +191,8 @@ export default {
   padding: 20px;
   height: 512px;
 }
-.title1_down {
-  animation: movedown 0.5s;
+.title {
+  animation: movedown 0.2s;
   animation-direction: alternate;
 }
 @keyframes movedown {
