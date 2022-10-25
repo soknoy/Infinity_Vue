@@ -12,59 +12,130 @@
     client’s requirements.
   </div>
   <div class="flex items-stretch items-center justify-evenly mt-12">
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-primaryBlue via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
-    >
-      <div class="inline-flex pt-5">
-        <img src="../assets/img/img4.svg" class="float-left h-24 w-24 ml-3" />
+    <div class="inline-flex pt-5 relative">
+      <div @mouseover="hoverImage1 = true" @mouseout="hoverImage1 = false">
         <div
-          class="font-bold text-4xl pt-2 text-left leading-tigth text-black/70"
+          id="image1"
+          class="h-96 w-96"
+          :class="{ hoverImage1: hoverImage1 }"
         >
-          UX/UI & Web Design
+          <div
+            class="absolute text-2xl font-extrabold top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full"
+            :class="{ invisible: hoverImage1 }"
+          >
+            MISSION & VISION
+          </div>
+        </div>
+        <div
+          class="absolute text-2xl font-extrabold text-black top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full header1"
+          :class="{
+            invisible: !hoverImage1,
+            title1_down: hoverImage1,
+          }"
+          @mouseover="hoverImage1 = true"
+        >
+          MISSION & VISION
+        </div>
+        <div
+          class="absolute text-base font-medium text-grey top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/3 paragraph1"
+          :class="{ invisible: !hoverImage1 }"
+          @mouseover="hoverImage1 = true"
+        >
+          Our mission and vision are to create the greatest technology for
+          everyday life and to build value through employees by creating an
+          atmosphere of optimism, teamwork, creativity, and resourcefulness.
         </div>
       </div>
-      <p class="text-left py-5 px-8">
-        Create user-centered designs by understanding business requirements,
-        with a friendly UX and attractive UI.
-      </p>
     </div>
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
-    >
-      <div class="inline-flex pt-5">
-        <img src="../assets/img/img5.svg" class="float-left h-24 w-24 ml-3" />
+    <div class="inline-flex pt-5 relative">
+      <div @mouseover="hoverImage2 = true" @mouseout="hoverImage2 = false">
         <div
-          class="font-bold text-4xl pt-2 text-left leading-tigth text-black/70"
+          id="image2"
+          class="h-96 w-96"
+          :class="{ hoverImage2: hoverImage2 }"
         >
-          Digital Marketing
+          <div
+            class="absolute text-2xl font-extrabold top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full"
+            :class="{ invisible: hoverImage2 }"
+          >
+            OUR OFFICE
+          </div>
+        </div>
+        <div
+          class="absolute text-2xl font-extrabold text-black top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full header1"
+          :class="{
+            invisible: !hoverImage2,
+            title1_down: hoverImage2,
+          }"
+          @mouseover="hoverImage2 = true"
+        >
+          OUR OFFICE
+        </div>
+        <div
+          class="absolute text-base font-medium text-grey top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/3 paragraph1"
+          :class="{ invisible: !hoverImage2 }"
+          @mouseover="hoverImage2 = true"
+        >
+          Our mission and vision are to create the greatest technology for
+          everyday life and to build value through employees by creating an
+          atmosphere of optimism, teamwork, creativity, and resourcefulness.
         </div>
       </div>
-      <p class="text-left py-5 px-8">
-        Advertising delivers the innovative and strategic promotional programs
-        that drive efficient results.
-      </p>
     </div>
-    <div
-      class="border-solid border rounded-md border-gray-900/10 h-60 w-96 shadow-lg shadow-inner transition-all duration-500 bg-gradient-to-t to-white-500/75 via-white from-primaryBlue bg-size-200 hover:bg-right-bottom cursor-pointer content"
-    >
-      <div class="inline-flex pt-5">
-        <img src="../assets/img/img6.svg" class="float-left h-24 w-24 ml-3" />
+    <div class="inline-flex pt-5 relative">
+      <div @mouseover="hoverImage3 = true" @mouseout="hoverImage3 = false">
         <div
-          class="font-bold text-4xl text-left pt-2 leading-tigth text-black/70"
+          id="image3"
+          class="h-96 w-96"
+          :class="{ hoverImage3: hoverImage3 }"
         >
-          Creative Solution
+          <div
+            class="absolute text-2xl font-extrabold top-2/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full"
+            :class="{ invisible: hoverImage3 }"
+          >
+            ACHIEVEMENT
+          </div>
+        </div>
+        <div
+          class="absolute text-2xl font-extrabold text-black top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full header1"
+          :class="{
+            invisible: !hoverImage3,
+            title1_down: hoverImage3,
+          }"
+          @mouseover="hoverImage3 = true"
+        >
+          ACHIEVEMENT
+        </div>
+        <div
+          class="absolute text-base font-medium text-grey top-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/3 paragraph1"
+          :class="{ invisible: !hoverImage3 }"
+          @mouseover="hoverImage3 = true"
+        >
+          Our mission and vision are to create the greatest technology for
+          everyday life and to build value through employees by creating an
+          atmosphere of optimism, teamwork, creativity, and resourcefulness.
         </div>
       </div>
-      <p class="text-left py-5 px-8">
-        With innovative, and creative team we assure to cover all your brand
-        campa- ign objectives…
-        <i class="font-bold text-primaryBlue">Netracreative</i>
-      </p>
     </div>
+  </div>
+  <div>
+    <button
+      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded my-20"
+    >
+      Button
+    </button>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      hoverImage1: false,
+      hoverImage2: false,
+      hoverImage3: false,
+    };
+  },
+};
 </script>
 <style>
 .content:hover > p > i {
@@ -73,5 +144,65 @@ export default {};
 .content:hover > div > div,
 .content:hover > p {
   color: #6c6c6c;
+}
+#image1 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("../assets/aboutus_1.png");
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  height: 512px;
+}
+.hoverImage1 {
+  opacity: 0.3;
+}
+.hoverImage2 {
+  opacity: 0.3;
+}
+.hoverImage3 {
+  opacity: 0.3;
+}
+
+#image2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("../assets/aboutus_2.png");
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  height: 512px;
+}
+#image3 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0px,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("../assets/aboutus_3.png");
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  height: 512px;
+}
+.title1_down {
+  animation: movedown 0.5s;
+  animation-direction: alternate;
+}
+@keyframes movedown {
+  0% {
+    left: 192px;
+    top: 0px;
+  }
+  100% {
+    left: 192px;
+    top: 178px;
+  }
 }
 </style>

@@ -21,6 +21,7 @@ module.exports = {
         primaryBlue: "#52B8B4",
         primaryBlack: "#3D3A3A",
         secondaryBlack: "#6C6C6C",
+        secondaryBlue: "#67C0B3",
       },
       backgroundSize: {
         "size-200": "200% 200%",
