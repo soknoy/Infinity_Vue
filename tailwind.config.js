@@ -22,6 +22,11 @@ module.exports = {
         primaryBlack: "#3D3A3A",
         secondaryBlack: "#6C6C6C",
         secondaryBlue: "#67C0B3",
+        purleShamu: "#828EC0",
+        orkun: "#F9A829",
+        icow: "#3CB0B0",
+        umpay: "#F3C033",
+        flash: "#36559C",
       },
       backgroundSize: {
         "size-200": "210% 210%",

@@ -68,6 +68,7 @@ export default {
 
 nav {
   padding: 30px;
+  z-index: 100;
 }
 
 nav a {
