@@ -59,13 +59,6 @@
       </div>
     </div>
   </div>
-  <div class="mt-24">
-    <button
-      class="relative border-2 w-56 h-12 border-primaryBlue bg-transparent py-2.5 px-5 font-bold text-xl uppercase text-gray-500 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-primaryBlue before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100"
-    >
-      SEE MORE
-    </button>
-  </div>
 </template>
 <script>
 export default {
